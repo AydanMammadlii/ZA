@@ -1,0 +1,58 @@
+// Task 1
+
+//string month = Console.ReadLine();
+
+//if ((month == "Dekabr") || (month == "Yanvar") || (month == "Fevral"))
+//{
+
+//    Console.WriteLine("Qis");
+//}
+//else if ((month == "Mart") || (month == "Aprel") || (month == "May"))
+//{
+
+//    Console.WriteLine("Yaz");
+//}
+
+//else if ((month == "Iyun" || (month == "Iyul") || (month == "Avqust")))
+//{
+
+//    Console.WriteLine("Yay");
+//}
+//else if ((month == "Sentabr") || ((month == "Oktabr") || (month == "Noyabr")))
+//{
+
+//    Console.WriteLine("Payiz");
+
+//}
+//else
+//{
+
+//    Console.WriteLine("Sozu duzgun yazin");
+//}
+
+//Console.WriteLine(month);
+
+
+// Task 3
+//int num = 3;
+//int result = 1;
+//for (int i = 1; i <= num; i++)
+//{
+
+//    result *= i;
+
+//}
+//Console.WriteLine(result);
+
+
+// Task 2
+int num = 36;
+for (int i = 1; i <= num; i++)
+{
+
+    num /= i;                        ???
+   
+   
+}
+
+Console.WriteLine(num);
