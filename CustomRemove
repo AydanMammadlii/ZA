@@ -22,8 +22,18 @@ public class Test<T>
             Console.WriteLine(item);
         }
     }
+   
+public int customIndexOf(T obj)
+    {
+        for (int i = 0; i < _arr.Length; i++)
+        {
+            if (Equals(_arr[i], obj)) return i;
+        }
+        return -1;
+    }
 
-    public void customRemove(T obj)  // meselen arrayde 3 dene Ulvi varsa hamisin silir 
+   
+public void customRemove(T obj)  // meselen arrayde 3 dene Ulvi varsa hamisin silir 
     {
         for (int i = 0; i <= _arr.Length - 1; i++)
         {
