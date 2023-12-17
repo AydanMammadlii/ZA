@@ -23,39 +23,6 @@ public class Test<T>
         }
     }
 
-    public void Clear()
-    {
-        Array.Resize(ref _arr, 0);
-    }
-
-
-    public void CustomAddRange(IEnumerable<T> list)
-    {
-        foreach (var item in list)
-        {
-            Add(item);
-        }
-    }
-
-    public bool customContains(T obj)
-    {
-        foreach (var item in _arr)
-        {
-            if (Equals(item, obj)) return true;
-        }
-        return false;
-    }
-
-    public int customIndexOf(T obj)
-    {
-        for (int i = 0; i < _arr.Length; i++)
-        {
-            if (Equals(_arr[i], obj)) return i;
-        }
-        return -1;
-    }
-
-
     public void customRemove(T obj)  // meselen arrayde 3 dene Ulvi varsa hamisin silir 
     {
         for (int i = 0; i <= _arr.Length - 1; i++)
